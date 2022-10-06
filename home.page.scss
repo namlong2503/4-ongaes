@@ -1,20 +1,25 @@
-#container {
+ion-content{
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+   url(image-bg.jfif) no-repeat center center / cover;
+}
+.container {
   text-align: center;
-  padding-right: 10%;
   transform: translateY(-100%);
 }
 
-#border{
+.border{
+  top: 20%;
+  left: 10%;
   position: absolute;  
-  left: 40%;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 300px;
-  width: 400px;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 #cmnd{
+  left: 8%;
+  text-align: left;
   border: 0px;
   border-bottom: 1px solid darkgrey;
   width: 300px;
@@ -27,7 +32,6 @@
   height: 40px;
   width: 300px;
   margin-top: 30px;
-  background-color: white;
   color: orange;
 }
 
@@ -37,17 +41,18 @@
   border-color: white;
 }
 
-#head{
+.head{
   background-color: orange;
   height: 150px;
   width: 350px;
+  border-radius: 10px;
 }
 
-#box-cicle{
+.box-cicle{
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-image: url(image/image-1.png);
+  background-image: url(image-1.png);
   background-repeat: no-repeat;
   background-position: 50% 20%;
   background-color: white;
